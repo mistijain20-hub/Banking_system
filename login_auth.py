@@ -6,18 +6,38 @@ def show_menu():
     print("press 3 for Exit")
     
 
-def create_user():
-    if press == 11:
-        print("Login into account")
-    elif press ==12:
-        print("Create Account")
-        user_name=input("Enter username: ")
-        password= input("Enter password: ")
-    else:
-        print("Pls enter valid number")
-        
+def user():
+    while True:
+        print("1. Login")
+        print("2. Create Account")
+        print("3. Back")
 
-def create_admin():
+        user_choice = int(input("Enter choice: "))
+
+        if user_choice == 1:
+           user_login()
+           
+        elif user_choice == 2:
+            create_user()
+
+        elif user_choice ==3:
+            break
+        else:
+            print("Pls enter valid number")
+
+def user_login():
+    user_name=input("Enter username: ")
+    password= input("Enter password: ")
+
+def create_user():
+    user_name=input("Enter username: ")
+    password= input("Enter password: ")
+
+
+
+            
+
+def admin():
     user_name=input("Enter username: ")
     password= input("Enter password: ")
 
@@ -30,13 +50,13 @@ while True:
     show_menu()
 
     press=int(input("Enter number: "))
-    print(os.system('cls'))
+    #print(os.system('cls'))
 
     if press == 1:
-       create_user()
+       user()
     
     elif press == 2:
-        create_admin()
+        admin()
     
     elif press == 3:
         exit()
