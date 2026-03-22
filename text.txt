@@ -1,0 +1,38 @@
+1. login as admin
+login as user
+ exit
+
+
+ 1. User & Authentication System (MOST IMPORTANT)
+create_user(username, pin)
+Create a new account
+Store:
+username
+pin
+balance (default 0)
+transaction history
+Reject if username already exists
+login_user(username, pin)
+Check if user exists
+Verify PIN
+Return user object (or session)
+Handle max attempts (lock account after 3 tries)
+logout_user()
+Clear current session
+Prevent unauthorized actions
+
+
+For Future: 
+Step 1:
+create_user
+login_user
+Step 2:
+store users in dictionary
+Step 3:
+transfer_money
+Step 4:
+transaction history with timestamps
+Step 5:
+file storage (JSON)
+Step 6:
+change_pin + security

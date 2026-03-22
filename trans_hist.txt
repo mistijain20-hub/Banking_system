@@ -1,1 +1,17 @@
-
+19-03-Mar 11:50 PM | Credit | ₹100      | deposited
+19-03-Mar 11:50 PM | Debit | ₹200      | Withdrawn
+19-03-Mar 11:50 PM | Credit | ₹900      | deposited
+19-03-Mar 11:51 PM | Debit | ₹465      | Withdrawn
+19-03-Mar 11:52 PM | Credit:<6 | ₹95       | deposited
+19-03-Mar 11:52 PM | Debit:<6 | ₹4685     | Withdrawn
+19-03-Mar 11:53 PM | Credit | ₹12365    | deposited
+19-03-Mar 11:53 PM | Debit:<6 | ₹4562     | Withdrawn
+19-03-Mar 11:54 PM | Credit | ₹1564     | deposited
+19-03-Mar 11:54 PM | Debit  | ₹45698    | Withdrawn
+20-03-Mar 12:05 AM | Debit  | ₹45       | Withdrawn
+20-03-Mar 12:06 AM | Credit | ₹10000    | deposited
+20-03-Mar 12:06 AM | Debit  | ₹5        | Withdrawn
+20-03-Mar 12:08 AM | Credit | ₹150      | deposited
+20-03-Mar 12:08 AM | Debit  | ₹45       | Withdrawn
+20-03-Mar 12:11 AM | Credit | ₹1564     | deposited
+20-03-Mar 12:11 AM | Credit | ₹146975   | deposited

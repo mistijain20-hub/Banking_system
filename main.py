@@ -1,5 +1,9 @@
-
+import art
+import os
+from datetime import datetime
 balance = 2500000
+
+print(art.welcome)
 
 def show_menu():
     print("Enter 1 for check the balance")    
@@ -7,6 +11,7 @@ def show_menu():
     print("Enter 3 for withdraw the money")    
     print("Enter 4 for show the passbook")    
     print("Enter 5 for Exit")    
+      
 
 def get_money():
     global balance
@@ -23,11 +28,11 @@ def deposite_money():
     else:
         print("Pls enter valid amount")
         return
-    # with open("trans_hist.txt",'a') as file:
-    #     file.writelines('')
+    now=datetime.now()
+    formatted_time=now.strftime("%d-%m-%h %I:%M %p")
+    with open("trans_hist.txt",'a',encoding="utf-8") as file:
+        file.write(f"{formatted_time} | {'Credit':<6} | ₹{amount:<8} | deposited\n")
     
-
-
 
 def withdraw_money():
     global balance
@@ -41,28 +46,31 @@ def withdraw_money():
     else:
         print("Pls enter valid amount")
         return
-    # with open("trans_hist.txt",'a') as file:
-    #     file.write('st')
+    now=datetime.now()
+    formatted_time=now.strftime("%d-%m-%h %I:%M %p")
+    with open("trans_hist.txt",'a',encoding="utf-8") as file:
+        file.write(f"{formatted_time} | {'Debit':<6} | ₹{amount:<8} | Withdrawn\n")
     
 
 
 def show_passbook():
     get_money()
-    # with open("trans_hist.txt",'r') as file:
-    #     print(file.readlines())
-
-
+    with open("trans_hist.txt",'r',encoding="utf-8") as file:
+        last = (file.readlines())
+        last_n = last[-10:]
+        for i in last_n:
+            print(i,end="")
+       
+        
 def exit():
     print("Thanks for visiting our bank")
-
-
-
-
+    print(art.exit)
 
 while True:
+   
     show_menu()
-
     press=int(input("Enter a number: "))
+    os.system('cls')
 
     if press ==1:
         get_money()
