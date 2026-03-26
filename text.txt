@@ -36,3 +36,8 @@ Step 5:
 file storage (JSON)
 Step 6:
 change_pin + security
+
+
+after created account -- username shown
+after login -- user's detail shown / a new page open
+admin == 1. Create user 2.Show all user  3. Delete user  4. Change password  -- two time for confirm password 5.Exit
