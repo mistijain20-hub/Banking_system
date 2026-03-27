@@ -1,18 +1,9 @@
-19-03-Mar 11:50 PM | Credit | ₹100      | deposited
-19-03-Mar 11:50 PM | Debit | ₹200      | Withdrawn
-19-03-Mar 11:50 PM | Credit | ₹900      | deposited
-19-03-Mar 11:51 PM | Debit | ₹465      | Withdrawn
-19-03-Mar 11:52 PM | Credit:<6 | ₹95       | deposited
-19-03-Mar 11:52 PM | Debit:<6 | ₹4685     | Withdrawn
-19-03-Mar 11:53 PM | Credit | ₹12365    | deposited
-19-03-Mar 11:53 PM | Debit:<6 | ₹4562     | Withdrawn
-19-03-Mar 11:54 PM | Credit | ₹1564     | deposited
-19-03-Mar 11:54 PM | Debit  | ₹45698    | Withdrawn
-20-03-Mar 12:05 AM | Debit  | ₹45       | Withdrawn
-20-03-Mar 12:06 AM | Credit | ₹10000    | deposited
-20-03-Mar 12:06 AM | Debit  | ₹5        | Withdrawn
-20-03-Mar 12:08 AM | Credit | ₹150      | deposited
-20-03-Mar 12:08 AM | Debit  | ₹45       | Withdrawn
-20-03-Mar 12:11 AM | Credit | ₹1564     | deposited
-20-03-Mar 12:11 AM | Credit | ₹146975   | deposited
-22-03-Mar 09:44 PM | Credit | ₹21       | deposited
+27-03-2026 09:12 PM | rahul      | Credit   | ₹80000    | Deposited
+27-03-2026 09:12 PM | rahul      | Debit    | ₹10000    | Withdrawn
+27-03-2026 09:12 PM | rahul      | Credit   | ₹40000    | Deposited
+27-03-2026 09:13 PM | rahul      | Debit    | ₹50000    | Withdrawn
+27-03-2026 09:20:56 PM | rahul      | Credit   | ₹10000    | Deposited
+27-03-2026 09:21:14 PM | rahul      | Credit   | ₹5000     | Deposited
+27-03-2026 09:34:21 PM | john       | Credit   | ₹90000    | Deposited
+27-03-2026 09:34:33 PM | john       | Debit    | ₹500      | Withdrawn
+27-03-2026 09:34:43 PM | john       | Debit    | ₹500      | Withdrawn
